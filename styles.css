@@ -205,7 +205,7 @@ h2{
   display:flex; align-items:flex-end; padding:20px;
 }
 .project-card:nth-child(1) .project-media{
-  background-image:url('images/project-meridian.jpg');
+  background-image:url('images/heroimg.png');
 }
 .project-card:nth-child(2) .project-media{
   background-image:url('images/project-nineyards.jpg');
