@@ -199,19 +199,19 @@ h2{
 }
 .project-media{
   height:220px; position:relative;
-  background:linear-gradient(135deg, var(--ink) 0%, var(--ink-soft) 100%);
+  background-image:linear-gradient(135deg, var(--ink) 0%, var(--ink-soft) 100%);
   background-size:cover;
   background-position:center;
   display:flex; align-items:flex-end; padding:20px;
 }
 .project-card:nth-child(1) .project-media{
-  background-image:url('heroimg.png');
+  background-image:url('images/project-meridian.jpg'), linear-gradient(135deg, var(--ink) 0%, var(--ink-soft) 100%);
 }
 .project-card:nth-child(2) .project-media{
-  background-image:url('images/project-nineyards.jpg');
+  background-image:url('images/project-nineyards.jpg'), linear-gradient(135deg, var(--ink) 0%, var(--ink-soft) 100%);
 }
 .project-card:nth-child(3) .project-media{
-  background-image:url('images/project-commons.jpg');
+  background-image:url('images/project-commons.jpg'), linear-gradient(135deg, var(--ink) 0%, var(--ink-soft) 100%);
 }
 .project-media .blueprint{opacity:0.12; filter:invert(1);}
 .project-loc{
